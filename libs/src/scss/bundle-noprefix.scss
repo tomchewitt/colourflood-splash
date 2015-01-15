@@ -96,6 +96,11 @@ header {
 			text-indent: -9999px;
 			border-bottom: none;
 
+			&:hover {
+				padding-bottom: 0;
+				border-bottom: none;
+			}
+
 			&::before, &::after {
 				content: '';
 				width: 100%;

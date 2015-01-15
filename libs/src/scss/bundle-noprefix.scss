@@ -61,6 +61,20 @@ header {
 		margin: 50px 0;
 	}
 
+	a {
+		color: #E42262;
+		text-decoration: none;
+		border-bottom: dotted 1px #E42262;
+		transition: all 0.4s ease;
+
+		&:hover {
+			color: #1A2853;
+			padding-bottom: 4px;
+			border-bottom: dotted 1px #1A2853;
+		}
+	}
+
+	// SOCIAL LINKS
 	li {
 		width: 50px;
 		height: 50px;
@@ -80,6 +94,7 @@ header {
 			left: 0;
 			overflow: hidden;
 			text-indent: -9999px;
+			border-bottom: none;
 
 			&::before, &::after {
 				content: '';

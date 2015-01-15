@@ -90,7 +90,7 @@ module.exports = function(grunt) {
 	});
 
 	// CREATE TASK 'default'
-	grunt.registerTask('default', ['concat', 'uglify', 'compass', 'autoprefixer']);
+	grunt.registerTask('default', ['compass', 'autoprefixer']);
 
 };
 
